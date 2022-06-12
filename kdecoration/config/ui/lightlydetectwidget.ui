@@ -11,13 +11,13 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>对话框</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QGroupBox" name="groupBox">
      <property name="title">
-      <string>Information about Selected Window</string>
+      <string>有关选定窗口的信息</string>
      </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
@@ -60,13 +60,13 @@
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
-      <string>Window Property Selection</string>
+      <string>窗口属性选择</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
        <widget class="QRadioButton" name="windowClassCheckBox">
         <property name="text">
-         <string>Use window class (whole application)</string>
+         <string>选择窗口类 (整个应用程序)</string>
         </property>
        </widget>
       </item>
@@ -76,7 +76,7 @@
          <locale language="French" country="France"/>
         </property>
         <property name="text">
-         <string>Use window title</string>
+         <string>选择窗口标题</string>
         </property>
        </widget>
       </item>

@@ -11,19 +11,19 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>对话框</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QGroupBox" name="groupBox">
      <property name="title">
-      <string>Window Identification</string>
+      <string>窗口识别</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="0" column="0">
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>&amp;Matching window property: </string>
+         <string>&amp;匹配窗口属性: </string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -36,7 +36,7 @@
       <item row="1" column="0">
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>Regular expression &amp;to match: </string>
+         <string>要匹配的正则表达式 &amp;: </string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -49,7 +49,7 @@
       <item row="2" column="2">
        <widget class="QPushButton" name="detectDialogButton">
         <property name="text">
-         <string>Detect Window Properties</string>
+         <string>检测窗口属性</string>
         </property>
        </widget>
       </item>
@@ -64,12 +64,12 @@
        <widget class="QComboBox" name="exceptionType">
         <item>
          <property name="text">
-          <string>Window Class Name</string>
+          <string>窗口类名</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Window Title</string>
+          <string>窗口标题</string>
          </property>
         </item>
        </widget>
@@ -80,20 +80,20 @@
    <item>
     <widget class="QGroupBox" name="groupBox_2">
      <property name="title">
-      <string>Decoration Options</string>
+      <string>装饰选项</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_3">
       <item row="0" column="0">
        <widget class="QCheckBox" name="borderSizeCheckBox">
         <property name="text">
-         <string>Border size:</string>
+         <string>边框大小:</string>
         </property>
        </widget>
       </item>
       <item row="2" column="0" colspan="2">
        <widget class="QCheckBox" name="hideTitleBar">
         <property name="text">
-         <string>Hide window title bar</string>
+         <string>隐藏窗口标题栏</string>
         </property>
        </widget>
       </item>
@@ -104,47 +104,47 @@
         </property>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">No Border</string>
+          <string comment="@item:inlistbox Border size:">无边框</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">No Side Borders</string>
+          <string comment="@item:inlistbox Border size:">无侧边框</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">Tiny</string>
+          <string comment="@item:inlistbox Border size:">小</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">Normal</string>
+          <string comment="@item:inlistbox Border size:">标准</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">Large</string>
+          <string comment="@item:inlistbox Border size:">大</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">Very Large</string>
+          <string comment="@item:inlistbox Border size:">超大</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">Huge</string>
+          <string comment="@item:inlistbox Border size:">特大</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">Very Huge</string>
+          <string comment="@item:inlistbox Border size:">超特大</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string comment="@item:inlistbox Border size:">Oversized</string>
+          <string comment="@item:inlistbox Border size:">极大</string>
          </property>
         </item>
        </widget>

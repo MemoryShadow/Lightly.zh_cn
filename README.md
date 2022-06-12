@@ -2,6 +2,8 @@
   <img src="logo.png"/>
 </p>
 
+**English** | **[中文](README.zh_CN.md "点击前往")**
+
 *Lightly* is a fork of breeze theme style that aims to be visually modern and minimalistic. 
 
 ## Development ⚠️

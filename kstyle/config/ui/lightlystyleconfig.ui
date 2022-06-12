@@ -36,13 +36,13 @@
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
-       <string>General</string>
+       <string>常规</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="1" colspan="4">
         <widget class="QCheckBox" name="_tabDrawHighlight">
          <property name="text">
-          <string>Draw highlight on active tab</string>
+          <string>在活动选项卡上突出显示</string>
          </property>
         </widget>
        </item>
@@ -63,17 +63,17 @@
         <widget class="QComboBox" name="_windowDragMode">
          <item>
           <property name="text">
-           <string>Drag windows from titlebar only</string>
+           <string>仅从标题栏拖动窗口</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Drag windows from titlebar, menubar and toolbars</string>
+           <string>从标题栏、菜单栏和工具栏拖动窗口</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Drag windows from all empty areas</string>
+           <string>从所有空白区域拖动窗口</string>
           </property>
          </item>
         </widget>
@@ -82,17 +82,17 @@
         <widget class="QComboBox" name="_mnemonicsMode">
          <item>
           <property name="text">
-           <string>Always Hide Keyboard Accelerators</string>
+           <string>总是隐藏快捷键</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Show Keyboard Accelerators When Needed</string>
+           <string>需要时显示快捷键</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Always Show Keyboard Accelerators</string>
+           <string>总是显示快捷键</string>
           </property>
          </item>
         </widget>
@@ -100,14 +100,14 @@
        <item row="6" column="1">
         <widget class="QCheckBox" name="_widgetDrawShadow">
          <property name="text">
-          <string>Draw widget shadow</string>
+          <string>绘制小部件阴影</string>
          </property>
         </widget>
        </item>
        <item row="7" column="2">
         <widget class="QSpinBox" name="_cornerRadius">
          <property name="suffix">
-          <string> px</string>
+          <string> 像素(px)</string>
          </property>
          <property name="minimum">
           <number>1</number>
@@ -123,7 +123,7 @@
        <item row="7" column="1">
         <widget class="QLabel" name="_cornerRadiusLabel">
          <property name="text">
-          <string>Corner radius:</string>
+          <string>圆角:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -139,7 +139,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>W&amp;indows' drag mode:</string>
+          <string>&amp;窗口拖拽模式:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -152,14 +152,14 @@
        <item row="2" column="1" colspan="4">
         <widget class="QCheckBox" name="_toolBarDrawItemSeparator">
          <property name="text">
-          <string>Draw toolbar item separators</string>
+          <string>绘制工具栏项目分隔符</string>
          </property>
         </widget>
        </item>
        <item row="8" column="1">
         <widget class="QLabel" name="_mnemonicsLabel">
          <property name="text">
-          <string>&amp;Keyboard accelerators visibility:</string>
+          <string>&amp;快捷键可见性:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -185,14 +185,14 @@
        <item row="3" column="1" colspan="4">
         <widget class="QCheckBox" name="_viewDrawFocusIndicator">
          <property name="text">
-          <string>Draw focus indicator in lists</string>
+          <string>在列表中绘制焦点指示器</string>
          </property>
         </widget>
        </item>
        <item row="1" column="1" colspan="2">
         <widget class="QCheckBox" name="_unifiedTabBarKonsole">
          <property name="text">
-          <string>Unify konsole tab bar with header area</string>
+          <string>将 konsole 选项卡栏与标题区域统一</string>
          </property>
         </widget>
        </item>
@@ -200,7 +200,7 @@
      </widget>
      <widget class="QWidget" name="tab_2">
       <attribute name="title">
-       <string>Animations</string>
+       <string>动画</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_5">
        <item row="1" column="0">
@@ -209,7 +209,7 @@
           <bool>false</bool>
          </property>
          <property name="text">
-          <string>A&amp;nimations duration:</string>
+          <string>&amp;动画时长:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -225,7 +225,7 @@
           <bool>false</bool>
          </property>
          <property name="suffix">
-          <string> ms</string>
+          <string> 毫秒(ms)</string>
          </property>
          <property name="maximum">
           <number>500</number>
@@ -235,7 +235,7 @@
        <item row="0" column="0" colspan="4">
         <widget class="QCheckBox" name="_animationsEnabled">
          <property name="text">
-          <string>Enable animations</string>
+          <string>启用动画</string>
          </property>
         </widget>
        </item>
@@ -269,48 +269,48 @@
      </widget>
      <widget class="QWidget" name="tab_3">
       <attribute name="title">
-       <string>Frames</string>
+       <string>外框</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
         <widget class="QCheckBox" name="_transparentDolphinView">
          <property name="text">
-          <string>Transparent Dolphin view</string>
+          <string>透明的Dolphin界面</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="_dockWidgetDrawFrame">
          <property name="text">
-          <string>Draw frame around dockable panels</string>
+          <string>绘制可停靠面板的外框</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="_titleWidgetDrawFrame">
          <property name="text">
-          <string>Draw frame around page titles</string>
+          <string>绘制页面标题外框</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="_kTextEditDrawFrame">
          <property name="text">
-          <string>Draw frame around KTextEdit</string>
+          <string>绘制全文编辑器组件(KTextEdit)的外框</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="_sidePanelDrawFrame">
          <property name="text">
-          <string>Draw frame around side panels</string>
+          <string>绘制侧栏面板外框</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="_menuItemDrawThinFocus">
          <property name="text">
-          <string>Draw a thin line to indicate focus in menus and menubars</string>
+          <string>绘制细线以指示菜单和菜单栏中的焦点</string>
          </property>
         </widget>
        </item>
@@ -331,7 +331,7 @@
      </widget>
      <widget class="QWidget" name="tab_4">
       <attribute name="title">
-       <string>Scrollbars</string>
+       <string>滚动条</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_6">
        <item row="1" column="2">
@@ -350,7 +350,7 @@
        <item row="1" column="0">
         <widget class="QLabel" name="_scrollBarAddLineLabel">
          <property name="text">
-          <string>Bottom arrow button t&amp;ype:</string>
+          <string>底部箭头按钮类型&amp;:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -363,7 +363,7 @@
        <item row="0" column="0">
         <widget class="QLabel" name="_scrollBarSubLineLabel">
          <property name="text">
-          <string>&amp;Top arrow button type:</string>
+          <string>&amp;顶部箭头按钮类型:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -377,17 +377,17 @@
         <widget class="QComboBox" name="_scrollBarSubLineButtons">
          <item>
           <property name="text">
-           <string>No Buttons</string>
+           <string>无按钮</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>One Button</string>
+           <string>一个按钮</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Two Buttons</string>
+           <string>两个按钮</string>
           </property>
          </item>
         </widget>
@@ -396,17 +396,17 @@
         <widget class="QComboBox" name="_scrollBarAddLineButtons">
          <item>
           <property name="text">
-           <string>No Buttons</string>
+           <string>无按钮</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>One Button</string>
+           <string>一个按钮</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Two Buttons</string>
+           <string>两个按钮</string>
           </property>
          </item>
         </widget>
@@ -427,7 +427,7 @@
         <item row="2" column="0">
         <widget class="QCheckBox" name="_renderThinSeperatorBetweenTheScrollBar">
          <property name="text">
-          <string>Render a thin separator between the scrollbar</string>
+          <string>在滚动条之间渲染一个细分隔符</string>
          </property>
         </widget>
        </item>
@@ -435,7 +435,7 @@
      </widget>
      <widget class="QWidget" name="tab_5">
       <attribute name="title">
-       <string>Transparency</string>
+       <string>透明度</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="1" column="1">
@@ -443,7 +443,7 @@
          <item>
           <widget class="QLabel" name="_menuOpacityTransparentLabel">
            <property name="text">
-            <string>Transparent</string>
+            <string>透明</string>
            </property>
           </widget>
          </item>
@@ -469,7 +469,7 @@
             </sizepolicy>
            </property>
            <property name="text">
-            <string>Opaque</string>
+            <string>不透明</string>
            </property>
           </widget>
          </item>
@@ -528,7 +528,7 @@
          <item row="0" column="0">
           <widget class="QLabel" name="_menuGroupDescription">
            <property name="text">
-            <string>Menu:</string>
+            <string>菜单:</string>
            </property>
           </widget>
          </item>
@@ -569,7 +569,7 @@
          <item row="1" column="0">
           <widget class="QLabel" name="label">
            <property name="text">
-            <string>Sidebars:</string>
+            <string>侧边栏:</string>
            </property>
           </widget>
          </item>

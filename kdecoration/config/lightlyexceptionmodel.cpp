@@ -34,8 +34,8 @@ namespace Lightly
     const QString ExceptionModel::m_columnTitles[ ExceptionModel::nColumns ] =
     {
         QStringLiteral( "" ),
-        i18n("Exception Type"),
-        i18n("Regular Expression")
+        i18n("例外类型"),
+        i18n("正则表达式")
     };
 
     //__________________________________________________________________

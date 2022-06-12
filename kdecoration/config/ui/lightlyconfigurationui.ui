@@ -21,13 +21,13 @@
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
-       <string>General</string>
+       <string>常规</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_4">
        <item row="0" column="0">
         <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>Tit&amp;le alignment:</string>
+          <string>&amp;标题对齐:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -40,7 +40,7 @@
        <item row="1" column="0">
         <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>B&amp;utton size:</string>
+          <string>&amp;按钮大小:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -54,27 +54,27 @@
         <widget class="QComboBox" name="buttonSize">
          <item>
           <property name="text">
-           <string>Tiny</string>
+           <string>微小</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Small</string>
+           <string comment="@item:inlistbox Button size:">小</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Medium</string>
+           <string comment="@item:inlistbox Button size:">中等</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Large</string>
+           <string comment="@item:inlistbox Button size:">大</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Very Large</string>
+           <string comment="@item:inlistbox Button size:">超大</string>
           </property>
          </item>
         </widget>
@@ -83,22 +83,22 @@
         <widget class="QComboBox" name="titleAlignment">
          <item>
           <property name="text">
-           <string>Left</string>
+           <string>居左</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Center</string>
+           <string>居中</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Center (Full Width)</string>
+           <string>居中 (全宽)</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Right</string>
+           <string>居右</string>
           </property>
          </item>
         </widget>
@@ -132,35 +132,35 @@
        <item row="5" column="0" colspan="3">
         <widget class="QCheckBox" name="drawSizeGrip">
          <property name="text">
-          <string>Add handle to resize windows with no border</string>
+          <string>为无边框窗口添加缩放柄</string>
          </property>
         </widget>
        </item>
        <item row="6" column="0" colspan="3">
         <widget class="QCheckBox" name="drawTitleBarSeparator">
          <property name="text">
-          <string>Draw separator under active window's titlebar</string>
+          <string>在活动窗口标题栏下绘制分隔符</string>
          </property>
         </widget>
        </item>
        <item row="3" column="0" colspan="3">
         <widget class="QCheckBox" name="drawBorderOnMaximizedWindows">
          <property name="text">
-          <string>Allow resizing maximized windows from window edges</string>
+          <string>允许从窗口边缘调整已经最大化窗口的大小</string>
          </property>
         </widget>
        </item>
        <item row="2" column="0" colspan="3">
         <widget class="QCheckBox" name="outlineCloseButton">
          <property name="text">
-          <string>Draw a circle around close button</string>
+          <string>在关闭按钮周围画圆圈</string>
          </property>
         </widget>
        </item>
        <item row="4" column="0" colspan="3">
         <widget class="QCheckBox" name="drawBackgroundGradient">
          <property name="text">
-          <string>Draw titlebar background gradient</string>
+          <string>绘制标题栏背景渐变</string>
          </property>
         </widget>
        </item>
@@ -168,7 +168,7 @@
      </widget>
      <widget class="QWidget" name="tab_2">
       <attribute name="title">
-       <string>Animations</string>
+       <string>动画</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_5">
        <item row="1" column="0">
@@ -177,7 +177,7 @@
           <bool>false</bool>
          </property>
          <property name="text">
-          <string>Anima&amp;tions duration:</string>
+          <string>&amp;动画时长:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -193,7 +193,7 @@
           <bool>false</bool>
          </property>
          <property name="suffix">
-          <string> ms</string>
+          <string> 毫秒(ms)</string>
          </property>
          <property name="maximum">
           <number>500</number>
@@ -216,7 +216,7 @@
        <item row="0" column="0" colspan="3">
         <widget class="QCheckBox" name="animationsEnabled">
          <property name="text">
-          <string>Enable animations</string>
+          <string> 启用动画</string>
          </property>
         </widget>
        </item>
@@ -237,13 +237,13 @@
      </widget>
      <widget class="QWidget" name="tab_4">
       <attribute name="title">
-       <string>Shadows</string>
+       <string>阴影</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="0">
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Si&amp;ze:</string>
+          <string>&amp;大小:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -257,27 +257,27 @@
         <widget class="QComboBox" name="shadowSize">
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">None</string>
+           <string comment="@item:inlistbox Button size:">无</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Small</string>
+           <string comment="@item:inlistbox Button size:">小</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Medium</string>
+           <string comment="@item:inlistbox Button size:">中等</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Large</string>
+           <string comment="@item:inlistbox Button size:">大</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string comment="@item:inlistbox Button size:">Very Large</string>
+           <string comment="@item:inlistbox Button size:">超大</string>
           </property>
          </item>
         </widget>
@@ -285,7 +285,7 @@
        <item row="1" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string comment="strength of the shadow (from transparent to opaque)">S&amp;trength:</string>
+          <string comment="strength of the shadow (from transparent to opaque)">&amp;强度:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -324,7 +324,7 @@
        <item row="2" column="0">
         <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>Color:</string>
+          <string>颜色:</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -351,7 +351,7 @@
      </widget>
      <widget class="QWidget" name="tab_3">
       <attribute name="title">
-       <string>Window-Specific Overrides</string>
+       <string>特定窗口优先规则</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
